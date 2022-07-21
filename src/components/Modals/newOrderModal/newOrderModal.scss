@@ -1,0 +1,70 @@
+.newOrder {
+    width: 1000px;
+    min-height: 500px;
+    max-height: 400px;
+    background: white;
+    position: absolute;
+    left: 17%;
+    top: 15%;
+    z-index: 1;
+    overflow-y: auto;
+    
+    .orderContent {
+        display: flex;
+        margin: 20px;
+        align-items: center;
+        justify-content: space-around;
+        align-items: center;
+
+        select {
+            width: 80px;
+            height: 25px;
+        }
+
+        .selectItem {
+            width: 200px;
+        }
+
+        .quantitySelect {
+            margin-left: 10px;
+        }
+
+        .submitItem {
+            margin-top: 20px;
+            margin-left: 110px;
+            width: 80px;
+            height: 30px;
+            background-color: #03C04A;
+            color: white;
+            cursor: pointer;
+            border: none;
+            position: absolute;
+        }
+    }
+
+    .newOrderBtn {
+        width: 120px;
+        height: 40px;
+        background-color: #03C04A;
+        color: white;
+        cursor: pointer;
+        margin: 30px 43%;
+        border: none;
+    }
+
+    .orderTable {
+        width: 89%;
+        margin: 50px;
+        margin-top: 65px;
+
+        .deleteBtn {
+            background-color: rgb(254, 92, 92);
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .amount {
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,34 @@
+.topbar {
+    background: white;
+    width: 100%;
+    height: 50px;
+    
+    .topbarWrapper {
+        height: 100%;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        
+        .topLeft {
+            font-weight: bold;
+            font-size: 30px;
+            color: lightblue;
+            cursor: pointer;
+        }
+
+        .topRight {
+            display: flex;
+            align-items: center;
+
+            .topbarIconContainer {
+                position: relative;
+                
+                .icon {
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+

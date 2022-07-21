@@ -1,0 +1,9 @@
+.App {
+    .container {
+        display: flex;
+    
+        .otherPages {
+            flex: 4;
+        }
+    }
+}

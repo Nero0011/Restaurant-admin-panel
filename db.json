@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "name": "T-Bone Steak",
+      "amount": 45
+    },
+    {
+      "name": "Filet Mignon",
+      "amount": 50
+    },
+    {
+      "name": "Tomahawk Steak",
+      "amount": 60
+    },
+    {
+      "name": "Tenderloin Roast",
+      "amount": 39
+    },
+    {
+      "name": "Ribeye Steak",
+      "amount": 50
+    },
+    {
+      "name": "New York Steak",
+      "amount": 50
+    },
+    {
+      "name": "Dana Bastirmasi",
+      "amount": 20
+    },
+    {
+      "name": "Lule Kebab",
+      "amount": 15
+    }
+  ],
+  "orders": [
+
+  ]
+}
